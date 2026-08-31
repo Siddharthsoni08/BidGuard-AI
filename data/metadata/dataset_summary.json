@@ -1,0 +1,88 @@
+{
+  "num_tenders": 1200,
+  "num_bidders": 2000,
+  "num_requirements": 31233,
+  "num_bidder_tender_participations": 4748,
+  "num_documents": 27367,
+  "num_document_fields": 223125,
+  "num_pages": 123027,
+  "num_evidence_records": 41845,
+  "num_requirement_evidence_records": 123703,
+  "num_compliance_records": 123703,
+  "num_risk_records": 4748,
+  "num_recommendations": 55201,
+  "num_audit_records": 33236,
+  "risk_distribution": {
+    "LOW": 1899,
+    "MEDIUM": 1662,
+    "HIGH": 1187
+  },
+  "risk_distribution_percent": {
+    "LOW": 40.0,
+    "MEDIUM": 35.0,
+    "HIGH": 25.0
+  },
+  "scenario_distribution": {
+    "FULLY_COMPLIANT": 1854,
+    "PARTIAL_COMPLIANCE": 583,
+    "INCONSISTENT_DOCUMENT": 231,
+    "INSUFFICIENT_EVIDENCE": 592,
+    "MINOR_ISSUES": 535,
+    "MISSING_DOCUMENT": 246,
+    "EXPIRED_DOCUMENT": 232,
+    "HARD_AMBIGUOUS_CASE": 242,
+    "INVALID_DOCUMENT": 233
+  },
+  "difficulty_distribution": {
+    "MEDIUM": 10434,
+    "EASY": 11363,
+    "HARD": 5570
+  },
+  "document_status_distribution": {
+    "VALID": 22549,
+    "INCONSISTENT": 966,
+    "INCOMPLETE": 2067,
+    "EXPIRED": 887,
+    "INVALID": 898
+  },
+  "compliance_distribution": {
+    "INSUFFICIENT_EVIDENCE": 32970,
+    "COMPLIANT": 68502,
+    "NON_COMPLIANT": 11671,
+    "PARTIALLY_COMPLIANT": 10560
+  },
+  "evidence_label_distribution": {
+    "DOES_NOT_SUPPORT": 17829,
+    "SUPPORTS": 74864,
+    "PARTIALLY_SUPPORTS": 15869,
+    "NO_EVIDENCE": 15141
+  },
+  "train_validation_test_tenders": {
+    "train": 840,
+    "validation": 180,
+    "test": 180
+  },
+  "seed": 26100,
+  "synthetic_only": true,
+  "validation_passed": true,
+  "ml_features": [
+    "total_requirements",
+    "mandatory_requirements",
+    "compliant_count",
+    "partially_compliant_count",
+    "non_compliant_count",
+    "insufficient_evidence_count",
+    "compliance_percentage",
+    "missing_document_count",
+    "expired_document_count",
+    "invalid_document_count",
+    "inconsistency_count",
+    "evidence_confidence_average",
+    "mandatory_failure_count",
+    "financial_requirement_failure",
+    "experience_requirement_failure",
+    "registration_requirement_failure",
+    "authorization_requirement_failure",
+    "document_quality_score"
+  ]
+}
